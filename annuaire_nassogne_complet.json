@@ -1,27 +1,27 @@
 [
   {
-    "service": "Zone de Police Famenne-Ardenne",
+    "service": "Police-responsable",
     "nom": "ANGE",
     "prénom": "Bernard",
     "téléphone": "0498/880.668",
     "email": "bernard.ange@police.belgium.eu"
   },
   {
-    "service": "Zone de Police Famenne-Ardenne",
+    "service": "Police Ambly-Nassogne",
     "nom": "BRIOL",
     "prénom": "Stéphane",
     "téléphone": "0470/860.479",
     "email": "stephane.briol@police.belgium.eu"
   },
   {
-    "service": "Zone de Police Famenne-Ardenne",
+    "service": "Police Bande-Grune-Harsin",
     "nom": "BODY",
     "prénom": "Céline",
     "téléphone": "0476/602.615",
     "email": "celine.body@police.belgium.eu"
   },
   {
-    "service": "Zone de Police Famenne-Ardenne",
+    "service": "Police Forrières-Lesterny-Masbourg",
     "nom": "FONTAINE",
     "prénom": "Mélanie",
     "téléphone": "0478/690.837",
@@ -39,7 +39,7 @@
     "nom": "ARRESTIER",
     "prénom": "Florence",
     "téléphone": "084/214.214",
-    "email": null
+    "email": "florence.arrestier@nassogne.be"
   },
   {
     "service": "CPAS",
@@ -287,39 +287,39 @@
     "email": "florence.arrestier@nassogne.be"
   },
   {
-    "service": "Collège et conseil communal",
+    "service": "Conseil communal",
     "nom": "LEFEBVRE",
     "prénom": "Philippe",
     "téléphone": "0475/692.766",
     "email": "phlefebvre@skynet.be"
   },
   {
-    "service": "Collège et conseil communal",
+    "service": "Conseil communal",
     "nom": "CULOT",
     "prénom": "Jean-François",
     "téléphone": "084/344.943",
     "email": "jean-francois.culot@nassogne.be"
   },
   {
-    "service": "Collège et conseil communal",
+    "service": "Conseil communal",
     "nom": "NICOLAY-SERVAIS",
     "prénom": "Stéphanie",
     "téléphone": "0497/488.599",
     "email": "stephanie.nicolay@nassogne.be"
   },
   {
-    "service": "Collège et conseil communal",
+    "service": "Conseil communal",
     "nom": "HENET",
     "prénom": "Sabrina",
     "téléphone": "0496/290.821",
-    "email": "sabrina.henet@nassogne.be"
+    "email": "sabrinahenet@hotmail.com"
   },
   {
     "service": "Collège et conseil communal",
     "nom": "BREDA",
     "prénom": "Christine",
     "téléphone": "0497/022.250",
-    "email": "christine.breda@nassogne.be"
+    "email": "christine.breda@hotmail.be"
   },
   {
     "service": "Collège et conseil communal",

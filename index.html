@@ -56,6 +56,13 @@
         .contact-phone, .contact-email {
             margin-right: 20px;
         }
+        .contact-email a {
+            color: #3a5683;
+            text-decoration: none;
+        }
+        .contact-email a:hover {
+            text-decoration: underline;
+        }
         .no-results {
             padding: 20px;
             text-align: center;
@@ -85,13 +92,46 @@
     
     <script>
         let contacts = [];
-
-        fetch('annuaire_nassogne_complet.json')
-            .then(response => response.json())
-            .then(data => {
-                contacts = data;
+        
+        // Fonction pour charger les contacts depuis le JSON
+        async function loadContacts() {
+            try {
+                const response = await fetch('annuaire_nassogne_complet.json');
+                if (!response.ok) {
+                    throw new Error('Erreur lors du chargement des données');
+                }
+                contacts = await response.json();
+                
+                // Vérifier et supprimer les doublons
+                const uniqueContacts = [];
+                const seen = new Set();
+                
+                contacts.forEach(contact => {
+                    // Créer une clé unique pour chaque contact
+                    const key = `${contact.nom}-${contact.prénom}-${contact.service}`;
+                    
+                    if (!seen.has(key)) {
+                        seen.add(key);
+                        uniqueContacts.push(contact);
+                    } else {
+                        // En cas de doublon, garder celui avec un email si possible
+                        const existingIndex = uniqueContacts.findIndex(c => 
+                            `${c.nom}-${c.prénom}-${c.service}` === key
+                        );
+                        
+                        if (existingIndex >= 0 && !uniqueContacts[existingIndex].email && contact.email) {
+                            uniqueContacts[existingIndex] = contact;
+                        }
+                    }
+                });
+                
+                contacts = uniqueContacts;
                 searchContacts();
-            });
+            } catch (error) {
+                console.error('Erreur:', error);
+                resultsContainer.innerHTML = '<div class="no-results">Erreur lors du chargement des données</div>';
+            }
+        }
 
         const searchInput = document.getElementById('searchInput');
         const resultsContainer = document.getElementById('resultsContainer');
@@ -119,12 +159,16 @@
             } else {
                 let resultsHTML = '';
                 filteredContacts.forEach(contact => {
+                    const emailDisplay = contact.email 
+                        ? `<a href="mailto:${contact.email}">${contact.email}</a>` 
+                        : '-';
+                    
                     resultsHTML += `
                         <div class="contact-item">
                             <div class="contact-name">${(contact.prénom || '') + ' ' + (contact.nom || '')}</div>
                             <div class="contact-title">${contact.service || '-'}</div>
                             <div class="contact-phone">${contact.téléphone || '-'}</div>
-                            <div class="contact-email">${contact.email || '-'}</div>
+                            <div class="contact-email">${emailDisplay}</div>
                         </div>
                     `;
                 });
@@ -133,6 +177,9 @@
         }
 
         searchInput.addEventListener('input', searchContacts);
+        
+        // Charger les contacts au démarrage
+        loadContacts();
     </script>
 
 </body>
