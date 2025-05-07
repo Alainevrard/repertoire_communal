@@ -46,14 +46,7 @@
     "nom": "CHABOT",
     "prénom": "Caroline",
     "téléphone": "084/370.390",
-    "email": null
-  },
-  {
-    "service": "Centre Médical de Nassogne",
-    "nom": "DELAUX",
-    "prénom": "Simon",
-    "téléphone": "084/366.162",
-    "email": null
+    "email": "caroline.chabot@cpas-nassogne.be"
   },
   {
     "service": "Centre Médical de Nassogne",
@@ -67,35 +60,35 @@
     "nom": "QUIRYNEN",
     "prénom": "Marc",
     "téléphone": "084/220.760",
-    "email": null
+    "email": "marc.quirynen@nassogne.be"
   },
   {
     "service": "Administration communale",
     "nom": "PAQUET",
     "prénom": "Quentin",
     "téléphone": "084/220.742",
-    "email": null
+    "email": "quentin.paquet@nassogne.be"
   },
   {
     "service": "Administration communale",
     "nom": "HERCOT",
     "prénom": "Nicolas",
     "téléphone": "084/220.759",
-    "email": null
+    "email": "nicolas.hercot@nassogne.be"	
   },
   {
     "service": "Administration communale",
     "nom": "HENQUINET",
     "prénom": "Nathalie",
     "téléphone": "084/220.749",
-    "email": null
+    "email": "nathalie.henquinet@nassogne.be"
   },
   {
     "service": "Administration communale",
     "nom": "BIYIK",
     "prénom": "Abdul",
     "téléphone": "0473/735.777",
-    "email": null
+    "email": "abdul.biyik@nassogne.be"
   },
   {
     "service": "Bibliothèque",
@@ -378,13 +371,6 @@
     "email": null
   },
   {
-    "service": "Centre Médical de Nassogne",
-    "nom": "ROUSSEAU",
-    "prénom": "Élodie",
-    "téléphone": "0474/058.437",
-    "email": null
-  },
-  {
     "service": "Office Communal du Tourisme",
     "nom": "LIBERT",
     "prénom": "Marie-France",
@@ -399,45 +385,38 @@
     "email": "office.tourisme@nassogne.be"
   },
   {
-    "service": "CPAS",
-    "nom": "ARRESTIER",
-    "prénom": "Florence",
-    "téléphone": "0472/621.157",
-    "email": "florence.arrestier@nassogne.be"
-  },
-  {
-    "service": "CPAS",
-    "nom": "CHABOT",
-    "prénom": "Caroline",
-    "téléphone": "084/370.390",
-    "email": null
-  },
-  {
-    "service": "Collège et conseil communal",
-    "nom": "DEFECHE",
-    "prénom": "Benjamin",
-    "téléphone": "0474/635.595",
-    "email": "benjamin.defeche@nassogne.be"
-  },
-  {
-    "service": "Collège et conseil communal",
-    "nom": "DEMORTIER",
-    "prénom": "Serge",
-    "téléphone": "084/223.275",
-    "email": "serge.demortier@nassogne.be"
-  },
-  {
-    "service": "Collège et conseil communal",
-    "nom": "DUPONT",
-    "prénom": "Isabelle",
-    "téléphone": "0477/581.122",
-    "email": "isabelle.dupont@nassogne.be"
-  },
-  {
     "service": "Espace Public Numérique",
     "nom": "BERTRAND",
     "prénom": "Damien",
     "téléphone": "084/220.751",
     "email": "epn@nassogne.be"
+  },
+  {
+    "service": "Population - État civil",
+    "nom": "DEGAND",
+    "prénom": "Sophie",
+    "téléphone": "084/220.744",
+    "email": null
+  },
+  {
+    "service": "Environnement",
+    "nom": "LEVA",
+    "prénom": "Catherine",
+    "téléphone": "084/220.753",
+    "email": null
+  },
+  {
+    "service": "Travaux",
+    "nom": "MOUTON",
+    "prénom": "Lionel",
+    "téléphone": "084/220.766",
+    "email": null
+  },
+  {
+    "service": "Travaux",
+    "nom": "LAMBERT",
+    "prénom": "Corentin",
+    "téléphone": "084/220.762",
+    "email": null
   }
 ]
