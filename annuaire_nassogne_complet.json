@@ -42,7 +42,7 @@
     "email": "caroline.chabot@cpas-nassogne.be"
   },
   {
-    "service": "Centre Médical de Nassogne",
+    "service": "Centre Médical de Nassogne-Docteur",
     "nom": "ROUSSEAU",
     "prénom": "Élodie",
     "téléphone": "0474/058.437",
@@ -390,5 +390,33 @@
     "prénom": "24h/24",
     "téléphone": "0474/279458",
     "email": null
+  }, 
+  {
+    "service": "Conseiller en environnement",
+    "nom": "Paque",
+    "prénom": "Paolo",
+    "téléphone": "084/220.753",
+    "email": null
+  },
+  {
+    "service": "Population - Etat civil",
+    "nom": "Collard",
+    "prénom": "Louise",
+    "téléphone": "084/220.755",
+    "email": null
+  }, 
+  {
+    "service": "Centre médical-Docteur",
+    "nom": "Petit",
+    "prénom": "Ophélie",
+    "téléphone": "084/466.807",
+    "email": null
+  }, 
+  {
+    "service": "Centre médical-secrétatiat",
+    "nom": "Thomas",
+    "prénom": "Florence",
+    "téléphone": "084/466.807",
+    "email": "secretariat.cmnassogne@gmail.com"
   } 
 ]
