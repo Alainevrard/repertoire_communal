@@ -63,14 +63,14 @@
     "email": "nicolas.hercot@nassogne.be"
   },
   {
-    "service": "Administration communale",
+    "service": "Commune - Travaux - Urbanisme",
     "nom": "HENQUINET",
     "prénom": "Nathalie",
     "téléphone": "084/220.749",
     "email": "nathalie.henquinet@nassogne.be"
   },
   {
-    "service": "Animateur de rue-Service sport",
+    "service": "Commune - Animateur de rue - Service sport",
     "nom": "BIYIK",
     "prénom": "Abdul",
     "téléphone": "0473/735.777",
@@ -91,28 +91,28 @@
     "email": "biblionassogne@hotmail.com"
   },
   {
-    "service": "Administration communale",
+    "service": "Commune - Communication - EPN",
     "nom": "VANDORPE",
     "prénom": "Peggy",
     "téléphone": "084/220.767",
     "email": "peggy.vandorpe@nassogne.be"
   },
   {
-    "service": "Service comptabilité",
+    "service": "Commune - Comptabilité",
     "nom": "BOLLE",
     "prénom": "Fabian",
     "téléphone": "084/220.747",
     "email": "fabian.bolle@nassogne.be"
   },
   {
-    "service": "Service comptabilité",
+    "service": "Commune - Comptabilité",
     "nom": "HERNANDEZ",
     "prénom": "Julie",
     "téléphone": "084/220.754",
     "email": "julie.hernandez@nassogne.be"
   },
   {
-    "service": "Service travaux",
+    "service": "Commune - Service travaux - Energie",
     "nom": "PIERARD",
     "prénom": "Stéphane",
     "téléphone": "084/220.769",
@@ -133,77 +133,77 @@
     "email": "communalenassogne@gmail.com"
   },
   {
-    "service": "Service recettes",
+    "service": "Commune - Service recettes - Forêt",
     "nom": "SCHMITZ",
     "prénom": "Bernadette",
     "téléphone": "084/220.748",
     "email": "bernadette.schmitz@nassogne.be"
   },
   {
-    "service": "Gestion des salles communales-Etat civil",
+    "service": "Commune - Gestion des salles communales - Etat civil",
     "nom": "PIRLOT",
     "prénom": "Delphine",
     "téléphone": "084/220.757",
     "email": "delphine.pirlot@nassogne.be"
   },
   {
-    "service": "Gestion des salles communales-Etat civil",
+    "service": "Commune - Gestion des salles communales - Etat civil",
     "nom": "LECOMTE",
     "prénom": "Sabrina",
     "téléphone": "084/220.752",
     "email": "sabrina.lecomte@nassogne.be"
   },
   {
-    "service": "Administration communale-PLANU",
+    "service": "Commune - PLANU",
     "nom": "NANGNIOT",
     "prénom": "Catherine",
     "téléphone": "084/220.768",
     "email": "catherine.nangniot@nassogne.be"
   },
   {
-    "service": "Petite enfance-Crèches communales",
+    "service": "Commune - Petite enfance - Crèches communales",
     "nom": "MOSSAY",
     "prénom": "Claire",
     "téléphone": "0495/548.265",
     "email": "clairemossay@hotmail.com"
   },
   {
-    "service": "Service taxes et redevances",
+    "service": "Commune - Service taxes et redevances",
     "nom": "FOURNY",
     "prénom": "Justine",
     "téléphone": "084/220.758",
     "email": "justine.fourny@nassogne.be"
   },
   {
-    "service": "Service du personnel",
+    "service": "Commune - Service du personnel",
     "nom": "LEBRUN",
     "prénom": "Katy",
     "téléphone": "084/220.761",
     "email": "katy.lebrun@nassogne.be"
   },
   {
-    "service": "Service du personnel",
+    "service": "Commune - Service du personnel",
     "nom": "LATOUR",
     "prénom": "Laura",
     "téléphone": "084/220.756",
     "email": "laura.latour@nassogne.be"
   },
   {
-    "service": "Agent constatateur",
+    "service": "Commune - Agent constatateur",
     "nom": "MOUTON",
     "prénom": "Emmanuel",
     "téléphone": "084/220.749",
     "email": "agent.constatateur@nassogne.be"
   },
   {
-    "service": "Travaux",
+    "service": "Commune - Travaux",
     "nom": "LAMBERT",
     "prénom": "Benoît",
-    "téléphone": "0496/356.072",
+    "téléphone": "0496/352.019",
     "email": ""
   },
   {
-    "service": "Service Urbanisme",
+    "service": "Commune - Service Urbanisme",
     "nom": "ARNOULD",
     "prénom": "Laurence",
     "téléphone": "084/220.782",
@@ -350,35 +350,28 @@
     "email": "office.tourisme@nassogne.be"
   },
   {
-    "service": "Espace Public Numérique",
+    "service": "Commune - Communication - EPN - Informatique",
     "nom": "BERTRAND",
     "prénom": "Damien",
     "téléphone": "084/220.751",
     "email": "epn@nassogne.be"
   },
   {
-    "service": "Secrétariat général - Adjointe PLANU",
+    "service": "Commune - Secrétariat général - Adjointe PLANU",
     "nom": "DEGAND",
     "prénom": "Sophie",
     "téléphone": "084/220.744",
     "email": "sophie.degand@nassogne.be"
   },
   {
-    "service": "Environnement",
-    "nom": "LEVA",
-    "prénom": "Catherine",
-    "téléphone": "084/220.753",
-    "email": "environnement@nassogne.be"
-  },
-  {
-    "service": "Service Travaux",
+    "service": "Commune - Travaux",
     "nom": "MOUTON",
     "prénom": "Lionel",
     "téléphone": "084/220.766",
     "email": "lionel.mouton@nassogne.be"
   },
   {
-    "service": "Service Travaux",
+    "service": "Commune - Service Travaux",
     "nom": "LAMBERT",
     "prénom": "Corentin",
     "téléphone": "084/220.762",
@@ -388,7 +381,7 @@
     "service": "Service des eaux",
     "nom": "Garde",
     "prénom": "24h/24",
-    "téléphone": "0474/279458",
+    "téléphone": "0474/279.458",
     "email": ""
   },
   {
@@ -399,7 +392,7 @@
     "email": ""
   },
   {
-    "service": "Population - Etat civil",
+    "service": "Commune - Population - Etat civil",
     "nom": "Collard",
     "prénom": "Louise",
     "téléphone": "084/220.755",
@@ -2278,7 +2271,28 @@
     "service": "Vétérinaire Homéopathe (Sur rendez vous)",
     "nom": "PROVOOST",
     "prénom": "Karin",
-    "téléphone": "0496/21. 54.65",
+    "téléphone": "0496/21.54.65",
     "email": "kapro@hotmail.com"
+  },
+  {
+    "service": "Crèche Les Bisounours",
+    "nom": "",
+    "prénom": "",
+    "téléphone": "084/411.811",
+    "email": ""
+  },
+  {
+    "service": "Crèche Les P'tites Chouettes",
+    "nom": "",
+    "prénom": "",
+    "téléphone": "084/367.536",
+    "email": ""
+  },
+  {
+    "service": "Proxibus",
+    "nom": "Hernandez",
+    "prénom": "Julie",
+    "téléphone": "084/220.754",
+    "email": ""
   }
 ]
