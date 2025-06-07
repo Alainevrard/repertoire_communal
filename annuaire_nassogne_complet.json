@@ -329,13 +329,6 @@
     "email": "benjamin.defeche@nassogne.be"
   },
   {
-    "service": "Centre Médical de Nassogne-Docteur",
-    "nom": "DELVAUX",
-    "prénom": "Simon",
-    "téléphone": "084/368.600",
-    "email": ""
-  },
-  {
     "service": "Office Communal du Tourisme",
     "nom": "LIBERT",
     "prénom": "Marie-France",
@@ -411,13 +404,6 @@
     "prénom": "Florence",
     "téléphone": "084/466.807",
     "email": "secretariat.cmnassogne@gmail.com"
-  },
-  {
-    "service": "LA FERME DES 3 FONTAINES - JOHAN ET FLORIANE LAMBORAY",
-    "nom": "LAMBORAY",
-    "prénom": "JOHAN",
-    "téléphone": "0497/35.97.59",
-    "email": "lafermedes3fontaines@hotmail.com"
   },
   {
     "service": "IDELUX ENVIRONNEMENT",
@@ -735,13 +721,6 @@
     "email": "contact@arboplants.be"
   },
   {
-    "service": "A LA FOLIE / CHARLOTTE PIERRARD-Atelier de couture et création",
-    "nom": "PIERRARD",
-    "prénom": "CHARLOTTE",
-    "téléphone": "0471/31.30.86",
-    "email": "contact@a-la-folie.be"
-  },
-  {
     "service": "KINÉSITHÉRAPEUTE",
     "nom": "BILY",
     "prénom": "SYLVIANNE",
@@ -949,13 +928,6 @@
     "nom": "TONDU",
     "prénom": "MICHEL",
     "téléphone": "084/21.49.48",
-    "email": ""
-  },
-  {
-    "service": "SALLE GRUNE VILLAGE PITTORESQUE - GRUNE",
-    "nom": "Guilbert",
-    "prénom": "Jean-Marie",
-    "téléphone": "084/34.42.43",
     "email": ""
   },
   {
@@ -1176,13 +1148,6 @@
     "email": "lafermeweron@gmail.com"
   },
   {
-    "service": "LES 4 SAISONS, CHEVAL MON AMI",
-    "nom": "Bihain",
-    "prénom": "Cathernine",
-    "téléphone": "0476/52.72.09",
-    "email": "info@chevalmonami.be"
-  },
-  {
     "service": "CG LOCA - location de matériel agricole",
     "nom": "COLLARD",
     "prénom": "GEOFFREY",
@@ -1195,13 +1160,6 @@
     "prénom": "Max",
     "téléphone": "0474/68.70.69",
     "email": "maxbourguignon@hotmail.be"
-  },
-  {
-    "service": "NATURE PHOTOGRAPHY",
-    "nom": "MOËS",
-    "prénom": "Philippe",
-    "téléphone": "0477/78.13.79",
-    "email": ""
   },
   {
     "service": "PÉTILLANCE - coaching scolaire et pédagogique",
@@ -1344,13 +1302,6 @@
     "email": "info@toiture-gregoire.be"
   },
   {
-    "service": "ATELIER DE COUTURE",
-    "nom": "ARAUXO",
-    "prénom": "ANGÉLIQUE",
-    "téléphone": "0496/96.64.88",
-    "email": "angedefil@gmail.com"
-  },
-  {
     "service": "PHARMACIE DE NASSOGNE",
     "nom": "ELOY DIT AGRY",
     "prénom": "SÉBASTIEN",
@@ -1468,20 +1419,6 @@
     "prénom": "JEANNICK",
     "téléphone": "084/21.47.63",
     "email": ""
-  },
-  {
-    "service": "INFIRMIÈRE À DOMICILE",
-    "nom": "POIRRIER",
-    "prénom": "BERNADETTE",
-    "téléphone": "084/34.44.15",
-    "email": "bernadette.poirrier@belgacom.net"
-  },
-  {
-    "service": "LOGOPÈGE POUR ENFANTS ET ADOLESCENTS.",
-    "nom": "LIMET",
-    "prénom": "VALENTINE",
-    "téléphone": "0494/41.51.56",
-    "email": "valentinelimet@gmail.com"
   },
   {
     "service": "LE GRUBOIS SA",
@@ -1834,13 +1771,6 @@
     "email": "lescawets@gmail.com"
   },
   {
-    "service": "ECURIE DE LA COLLINE / ALICIA MASSON",
-    "nom": "MASSON",
-    "prénom": "ALICIA",
-    "téléphone": "0478/78.47.18",
-    "email": "ecuriedelacolline@hotmail.com"
-  },
-  {
     "service": "PLAINES DE VACANCES",
     "nom": "",
     "prénom": "",
@@ -1981,7 +1911,7 @@
     "email": "georges.hotua@gmail.com"
   },
   {
-    "service": "NATURE PHOTOGRAPHY / PHILIPPE MOES",
+    "service": "NATURE PHOTOGRAPHY / PHILIPPE MOËS",
     "nom": "MOËS",
     "prénom": "Philippe",
     "téléphone": "084/34.46.80",
@@ -2023,7 +1953,7 @@
     "email": "gabrielmarieservais@gmail.com"
   },
   {
-    "service": "COMITÉ D'ANIMATION « GRUNE, VILLAG PITTORESQUE »",
+    "service": "COMITÉ D'ANIMATION « GRUNE, VILLAGE PITTORESQUE »",
     "nom": "Guilbert",
     "prénom": "Jean-Marie",
     "téléphone": "084/34.42.43",
@@ -2293,6 +2223,300 @@
     "nom": "Hernandez",
     "prénom": "Julie",
     "téléphone": "084/220.754",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Nassogne)",
+    "nom": "Blaise",
+    "prénom": "André",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Nassogne)",
+    "nom": "Lenoir",
+    "prénom": "Kévin",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Forrières)",
+    "nom": "Pirlotte",
+    "prénom": "Marjorie",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Forrières)",
+    "nom": "Streignard",
+    "prénom": "Jean-Baptiste",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Bande)",
+    "nom": "Grosdent",
+    "prénom": "Jean",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Grune)",
+    "nom": "Guillaume",
+    "prénom": "Alain",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Ambly)",
+    "nom": "Pierard",
+    "prénom": "Stéphane",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Masbourg)",
+    "nom": "Simon",
+    "prénom": "Jean",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Lesterny)",
+    "nom": "Barthélémy",
+    "prénom": "Antonin",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Mérite Sportif (Harsin)",
+    "nom": "Ponce",
+    "prénom": "Thibaud",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Lesterny)",
+    "nom": "Dehuy",
+    "prénom": "Quentin",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Forrières)",
+    "nom": "Georges",
+    "prénom": "Léon",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Forrières)",
+    "nom": "David",
+    "prénom": "Laurent",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Masbourg)",
+    "nom": "Lecomte",
+    "prénom": "Marie",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Ambly)",
+    "nom": "Danloy",
+    "prénom": "Francis",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Grune)",
+    "nom": "Mairy",
+    "prénom": "Yves",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Nassogne)",
+    "nom": "Naveau",
+    "prénom": "Caroline",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Nassogne)",
+    "nom": "Burnotte",
+    "prénom": "Etienne",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Harsin)",
+    "nom": "Batter",
+    "prénom": "Manuella",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Harsin)",
+    "nom": "Mathieu",
+    "prénom": "Martine",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Bande)",
+    "nom": "François",
+    "prénom": "Yvon",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Forrières)",
+    "nom": "Quirynen",
+    "prénom": "Emilie",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Forrières)",
+    "nom": "Vermeesch",
+    "prénom": "Dominique",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Forrières)",
+    "nom": "Vanderstichelen",
+    "prénom": "Damien",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Masbourg)",
+    "nom": "Timmermans",
+    "prénom": "Marc",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Ambly)",
+    "nom": "Gonne",
+    "prénom": "Fabien",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Grune)",
+    "nom": "Jacquet",
+    "prénom": "Christine",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Nassogne)",
+    "nom": "Lenoir",
+    "prénom": "Yves",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Harsin)",
+    "nom": "Brachot",
+    "prénom": "Isidore",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Harsin)",
+    "nom": "Burnotte",
+    "prénom": "Véronique",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Harsin)",
+    "nom": "Binet",
+    "prénom": "Maxime",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Commission Locale de Développement Rural (Bande)",
+    "nom": "David",
+    "prénom": "Marcel",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Nassogne)",
+    "nom": "Bertouille",
+    "prénom": "Sabine",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Harsin)",
+    "nom": "Brachot",
+    "prénom": "Isidore",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Nassogne)",
+    "nom": "Choque",
+    "prénom": "Vinciane",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Ambly)",
+    "nom": "Danloy",
+    "prénom": "Francis",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Harsin)",
+    "nom": "Dewere",
+    "prénom": "Myriam",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Masbourg)",
+    "nom": "Evrard",
+    "prénom": "Alain",
+    "téléphone": "0472/13.52.57",
+    "email": "evrard.alain@skynet.be"
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Lesterny)",
+    "nom": "Haterte",
+    "prénom": "Elisabeth",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Bande)",
+    "nom": "Poirrier",
+    "prénom": "Bernadette",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Nassogne)",
+    "nom": "Quirynen",
+    "prénom": "Charles",
+    "téléphone": "",
+    "email": ""
+  },
+  {
+    "service": "Conseil Consultatif Communal des Aînés (Forrières)",
+    "nom": "Rondeaux",
+    "prénom": "Ghislaine",
+    "téléphone": "",
     "email": ""
   }
 ]
