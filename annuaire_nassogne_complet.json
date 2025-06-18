@@ -2518,5 +2518,12 @@
     "prénom": "Ghislaine",
     "téléphone": "",
     "email": ""
+  },
+  {
+    "service": "La santé par l'énergie",
+    "nom": "Hennaux",
+    "prénom": "Benoît",
+    "téléphone": "0498/20.90.25",
+    "email": "benoit@benoithennaux.com"
   }
 ]
