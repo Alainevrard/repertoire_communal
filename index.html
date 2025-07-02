@@ -68,6 +68,25 @@
             text-align: center;
             color: #666;
         }
+        .error-message {
+            padding: 20px;
+            text-align: center;
+            color: #d32f2f;
+            background-color: #ffebee;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        .loading {
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-style: italic;
+        }
+        .results-count {
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #3a5683;
+        }
         @media (max-width: 768px) {
             .contact-item {
                 flex-direction: column;
@@ -86,7 +105,7 @@
     </div>
 
     <div class="results-container" id="resultsContainer">
-        <!-- Les résultats de recherche seront affichés ici -->
+        <div class="loading">Chargement des contacts...</div>
     </div>
 
     <!-- Ajout du compteur de visite -->
@@ -107,12 +126,48 @@
         
         // Fonction pour charger les contacts depuis le JSON
         async function loadContacts() {
+            const resultsContainer = document.getElementById('resultsContainer');
+            
             try {
-                const response = await fetch('annuaire_nassogne_complet.json');
-                if (!response.ok) {
-                    throw new Error('Erreur lors du chargement des données');
+                console.log('Tentative de chargement des contacts...');
+                
+                // URLs possibles pour charger le JSON
+                const possibleUrls = [
+                    // Chemin relatif (fonctionne avec GitHub Pages)
+                    './annuaire_nassogne_complet.json',
+                    'annuaire_nassogne_complet.json',
+                    // URL GitHub raw (fonctionne toujours)
+                    'https://raw.githubusercontent.com/Alainevrard/repertoire_communal/main/annuaire_nassogne_complet.json'
+                ];
+                
+                let response = null;
+                let lastError = null;
+                
+                // Essayer chaque URL jusqu'à ce qu'une fonctionne
+                for (const url of possibleUrls) {
+                    try {
+                        console.log(`Essai de chargement depuis: ${url}`);
+                        response = await fetch(url);
+                        
+                        if (response.ok) {
+                            console.log(`Succès avec: ${url}`);
+                            break;
+                        } else {
+                            console.log(`Échec avec ${url}: ${response.status} ${response.statusText}`);
+                        }
+                    } catch (error) {
+                        console.log(`Erreur avec ${url}:`, error.message);
+                        lastError = error;
+                        continue;
+                    }
                 }
+                
+                if (!response || !response.ok) {
+                    throw new Error(`Impossible de charger les données. Dernière erreur: ${lastError ? lastError.message : 'Réponse non valide'}`);
+                }
+                
                 contacts = await response.json();
+                console.log(`${contacts.length} contacts chargés avec succès`);
                 
                 // Vérifier et supprimer les doublons
                 const uniqueContacts = [];
@@ -120,7 +175,7 @@
                 
                 contacts.forEach(contact => {
                     // Créer une clé unique pour chaque contact
-                    const key = `${contact.nom}-${contact.prénom}-${contact.service}`;
+                    const key = `${contact.nom || ''}-${contact.prénom || ''}-${contact.service || ''}`;
                     
                     if (!seen.has(key)) {
                         seen.add(key);
@@ -128,7 +183,7 @@
                     } else {
                         // En cas de doublon, garder celui avec un email si possible
                         const existingIndex = uniqueContacts.findIndex(c => 
-                            `${c.nom}-${c.prénom}-${c.service}` === key
+                            `${c.nom || ''}-${c.prénom || ''}-${c.service || ''}` === key
                         );
                         
                         if (existingIndex >= 0 && !uniqueContacts[existingIndex].email && contact.email) {
@@ -138,10 +193,20 @@
                 });
                 
                 contacts = uniqueContacts;
+                console.log(`${contacts.length} contacts uniques après déduplication`);
+                
+                // Afficher le message initial
                 searchContacts();
+                
             } catch (error) {
-                console.error('Erreur:', error);
-                resultsContainer.innerHTML = '<div class="no-results">Erreur lors du chargement des données</div>';
+                console.error('Erreur lors du chargement:', error);
+                resultsContainer.innerHTML = `
+                    <div class="error-message">
+                        <strong>Erreur de chargement des données</strong><br>
+                        ${error.message}<br>
+                        <small>Vérifiez la console du navigateur (F12) pour plus de détails</small>
+                    </div>
+                `;
             }
         }
 
@@ -161,23 +226,26 @@
             }
 
             const filteredContacts = contacts.filter(contact => {
-                return normalize(contact.nom).includes(searchTerm) ||
-                       normalize(contact.prénom).includes(searchTerm) ||
-                       normalize(contact.service).includes(searchTerm);
+                return normalize(contact.nom || '').includes(searchTerm) ||
+                       normalize(contact.prénom || '').includes(searchTerm) ||
+                       normalize(contact.service || '').includes(searchTerm);
             });
 
             if (filteredContacts.length === 0) {
                 resultsContainer.innerHTML = '<div class="no-results">Aucun contact trouvé pour cette recherche</div>';
             } else {
-                let resultsHTML = '';
+                let resultsHTML = `<div class="results-count">${filteredContacts.length} contact(s) trouvé(s)</div>`;
+                
                 filteredContacts.forEach(contact => {
+                    const fullName = ((contact.prénom || '') + ' ' + (contact.nom || '')).trim();
+                    const displayName = fullName || 'Nom non disponible';
                     const emailDisplay = contact.email 
                         ? `<a href="mailto:${contact.email}">${contact.email}</a>` 
                         : '-';
                     
                     resultsHTML += `
                         <div class="contact-item">
-                            <div class="contact-name">${(contact.prénom || '') + ' ' + (contact.nom || '')}</div>
+                            <div class="contact-name">${displayName}</div>
                             <div class="contact-title">${contact.service || '-'}</div>
                             <div class="contact-phone">${contact.téléphone || '-'}</div>
                             <div class="contact-email">${emailDisplay}</div>
@@ -188,10 +256,14 @@
             }
         }
 
+        // Event listener pour la recherche en temps réel
         searchInput.addEventListener('input', searchContacts);
         
         // Charger les contacts au démarrage
-        loadContacts();
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM chargé, début du chargement des contacts');
+            loadContacts();
+        });
     </script>
 
 </body>
